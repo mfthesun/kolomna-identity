@@ -1,0 +1,22 @@
+# служебное
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# кэш Overpass и шрифты, которые скачивают ноутбуки
+kolomna_data/cache/
+kolomna_data/fonts/
+
+# генерируемые промежуточные выгрузки (создают ноутбуки 01 и 02)
+kolomna_data/osm_polygons.geojson
+kolomna_data/osm_buildings_points.geojson
+kolomna_data/osm_poi.geojson
+kolomna_data/basemap_*.gpkg
+
+# карты — результат ноутбука 02
+kolomna_maps/
+
+# большие исходники, которые не выкладываются (см. README)
+data-69-structure-16.json/
+data-69-structure-16.json.zip
+HOITH_database_*.gpkg
