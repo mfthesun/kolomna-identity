@@ -1,0 +1,12 @@
+# Зависимости проекта «Коломна: локальная идентичность».
+# Скрипты scripts/ используют pandas, geopandas, shapely; ноутбук 01 — requests и
+# osmnx (выгрузка OSM); ноутбук 02 — ещё matplotlib и numpy.
+# pdftotext из poppler-utils — системный пакет (apt install poppler-utils), не pip.
+pandas
+geopandas
+shapely
+requests
+ijson
+osmnx
+matplotlib
+numpy
