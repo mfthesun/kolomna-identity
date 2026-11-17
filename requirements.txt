@@ -10,3 +10,4 @@ ijson
 osmnx
 matplotlib
 numpy
+contextily>=1.6
